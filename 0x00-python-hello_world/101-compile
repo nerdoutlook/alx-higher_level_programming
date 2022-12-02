@@ -1,2 +1,3 @@
 #!/bin/bash
 python3 $PYFILE 2> my_main.pyc
+exit 1
