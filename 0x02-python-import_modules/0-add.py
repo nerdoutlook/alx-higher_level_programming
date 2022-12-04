@@ -12,5 +12,5 @@ except TypeError:
     pass
 else:
     print("{} + {} = {}".format(a, b, add(a, b)))
-# if __name__ == "__0-add__":
-#    0-add()
+if __name__ == "__0-add__":
+    0-add()
