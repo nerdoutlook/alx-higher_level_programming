@@ -9,10 +9,8 @@ if __name__ == "__main__":
         a / 1 == a
         b / 1 == b
     except ValueError as ve:
-        print(ve)
         pass
     except TypeError as te:
-        print(te)
         pass
     else:
         print("{} + {} = {}".format(a, b, add(a, b)))
