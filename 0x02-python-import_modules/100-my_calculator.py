@@ -10,6 +10,7 @@ if __name__ == "__main__":
     try:
         if sys.argv[2] not in op_list:
             print("Unknown operator. Available: +, -, * and /")
+            sys.exit(1)
     except ValueError:
         sys.exit(1)
 
