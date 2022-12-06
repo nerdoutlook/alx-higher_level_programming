@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-import string
-print(string.ascii_uppercase)
+import logging; l = logging.getLogger(__name__); l.warning('#pythoniscool')
