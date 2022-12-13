@@ -18,7 +18,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
         for i, j in zip(new_tuple_a, tuple_b):
             container.append(i + j)
     elif len1 == 0:
-        new_tuple_a = tuple_a + dummy
+        new_tuple_a = tuple_a + dummy + dummy
         for i, j in zip(new_tuple_a, tuple_b):
             container.append(i + j)
     elif len1 > 2:
