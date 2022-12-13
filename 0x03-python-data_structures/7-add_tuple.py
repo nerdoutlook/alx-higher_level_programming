@@ -22,10 +22,10 @@ def add_tuple(tuple_a=(), tuple_b=()):
         for i, j in zip(new_tuple_a, tuple_b):
             container.append(i + j)
     elif len1 > 2:
-        for i, j in zip(tuple_a[:3], tuple_b):
+        for i, j in zip(tuple_a[:2], tuple_b):
             container.append(i + j)
     elif len2 > 2:
-        for i, j in zip(tuple_a, tuple_b[:3]):
+        for i, j in zip(tuple_a, tuple_b[:2]):
             container.append(i + j)
     else:
         for i, j in zip(tuple_a, tuple_b):
