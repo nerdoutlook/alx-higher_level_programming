@@ -15,10 +15,8 @@ def roman_to_int(roman_string):
         return(value)
         pass
     for alphabet in roman_string:
-        print(alphabet)
         if alphabet in roman_numeral_base_list:
             digits.append(roman_numeral_base_list.get(alphabet))
-            print(digits)
 
     if len(digits) > 1:
         for num in digits:
@@ -30,5 +28,7 @@ def roman_to_int(roman_string):
 roman_string = "X"
 print("{} = {}".format(roman_string, roman_to_int(roman_string)))
 """
+"""
 roman_string2 = "XXX"
 print("{} = {}".format(roman_string2, roman_to_int(roman_string2)))
+"""
